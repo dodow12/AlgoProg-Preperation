@@ -26,7 +26,7 @@ I will attempt to create all of the different programs I always wanted to make a
 ### Week 1 — Core C Foundations
 
 - [x] Student Profile
-- [ ] Calculator Suite
+- [x] Calculator
 - [ ] Grade Calculator
 - [ ] Multiplication Table Generator
 - [ ] Quiz Game
