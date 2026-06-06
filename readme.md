@@ -26,8 +26,17 @@ I will attempt to create all of the different programs I always wanted to make a
 ### Week 1 — Core C Foundations
 
 - [x] Student Profile
+
+#### I found that in the student profile App, there were a few improvements I could make, like how the name is only able to store 1 word (the first name).
+
 - [x] Calculator
-- [ ] Grade Calculator
+
+#### I found that in the calculator App, I probably could've made it more efficient, maybe I'll redo this in the future.
+
+- [x] Grade Calculator
+
+#### I found that in the grade calculator App, I managed to create a succesfull program that does its intended purpose, however outside of functionality there are a few things that I may want to add in a future version like: error messages to make sure it never crashes without reasoning.
+
 - [ ] Multiplication Table Generator
 - [ ] Quiz Game
 - [ ] Number Guessing Game
