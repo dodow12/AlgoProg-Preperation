@@ -37,7 +37,10 @@ I will attempt to create all of the different programs I always wanted to make a
 
 #### I found that in the grade calculator App, I managed to create a succesfull program that does its intended purpose, however outside of functionality there are a few things that I may want to add in a future version like: error messages to make sure it never crashes without reasoning.
 
-- [ ] Multiplication Table Generator
+- [x] Multiplication Table Generator
+
+#### I found that because of my prior experience when makingg the Grade Calculator App, this task wasn't difficult for me and I completed it in a relatively short time. I also learnt that I can use stuff like &4d to make better spacing for a more consistent matrix-like output.
+
 - [ ] Quiz Game
 - [ ] Number Guessing Game
 
