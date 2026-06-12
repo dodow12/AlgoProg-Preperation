@@ -23,3 +23,13 @@
 - 5. [x] Interest / Compound Interest Calculator
 
 ### Evalutation: This project was fairly easy, but i definitely learnt alot from it. I got my first glimpse of how coding can be useful for practical things like counting interest. I also learnt technical things like how " %c" is better to input characters since the previous scanf left a blank character in the computers temporary memory, its kinda tricky but I somehow get it. Oh, I also used a new library called math for the power function, although I think it'll be fun to make my own functions for later projects.
+
+- 6. [x] Number Guessing Game
+
+### Evaluation: This project was harder than I thought, I learnt a many new things. I used libraries like bool, time, and the stdlib library to help introduce booleans, and generate random numbers with a seed. I also got my first glimpse of using actual math to help optimize my code, in this case it was to limit the random number to a number within the range 1-100.
+
+- 7. [ ] Prime Number Checker
+
+- 8. [ ] Fibonacci Sequence Generator
+
+- 9. [ ] Rock-Paper-Scissors
