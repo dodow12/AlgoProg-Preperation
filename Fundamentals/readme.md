@@ -28,7 +28,9 @@
 
 ### Evaluation: This project was harder than I thought, I learnt a many new things. I used libraries like bool, time, and the stdlib library to help introduce booleans, and generate random numbers with a seed. I also got my first glimpse of using actual math to help optimize my code, in this case it was to limit the random number to a number within the range 1-100.
 
-- 7. [ ] Prime Number Checker
+- 7. [x] Prime Number Checker
+
+### Evaluation: Honestly this one was pretty easy. It was one of the first implementations of actually combining programming with logical and mathematical thinking. I found that commenting the constraints of what counts as a prime number really helped my process and made it easier to visualize what I was trying to create.
 
 - 8. [ ] Fibonacci Sequence Generator
 
