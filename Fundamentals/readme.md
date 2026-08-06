@@ -32,6 +32,10 @@
 
 ### Evaluation: Honestly this one was pretty easy. It was one of the first implementations of actually combining programming with logical and mathematical thinking. I found that commenting the constraints of what counts as a prime number really helped my process and made it easier to visualize what I was trying to create.
 
-- 8. [ ] Fibonacci Sequence Generator
+- 8. [x] Fibonacci Sequence Generator
 
-- 9. [ ] Rock-Paper-Scissors
+### Evaluation: This one was the hardest one so far. It challenged my logic and required me to use my iPad to visualize and map out the formula. I did find that mathematical knowledge would be super useful to optimizing efficiency in performing tasks like creating this program.
+
+- 9. [x] Rock-Paper-Scissors
+
+### Evaluation: This one was fairly easy, just had to reimplement the random module I used in a previous project and mapped out the winning/losing possibilities. Was good practice though.
