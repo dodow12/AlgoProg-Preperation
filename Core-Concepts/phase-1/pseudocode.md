@@ -166,3 +166,26 @@ ELSE
     END FOR
 
 END IF
+
+## Excercise 4 (Floyd's Number Triangle)
+
+READ N
+SET start to 1
+
+IF N is not a positive integer THEN
+
+    DISPLAY "N Must be a positive integer"
+
+ELSE
+
+    FOR row from 1 to N
+        i = row
+        WHILE i not 0
+            DISPLAY start
+            start++
+            SUBSTRACT i by 1
+        END WHILE
+        DISPLAY newLine
+    END FOR
+
+END IF

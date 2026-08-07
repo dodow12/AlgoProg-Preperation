@@ -49,7 +49,7 @@ Every exercise must satisfy these conditions:
   - Matrix addition
   - Matrix traversal
 
-- [ ] **Exercise 4: Number Pattern Generator**
+- [x] **Exercise 4: Floyd's number triangle**
   - Nested loops
   - Pattern construction
   - Algorithm tracing
