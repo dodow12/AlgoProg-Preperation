@@ -58,7 +58,7 @@ Every exercise must satisfy these conditions:
 
 ## Phase 2: Functions and Decomposition
 
-- [ ] **Exercise 5: Function-Based Number Toolkit**
+- [x] **Exercise 5: Function-Based Number Toolkit**
   - Function declarations
   - Parameters
   - Return values
