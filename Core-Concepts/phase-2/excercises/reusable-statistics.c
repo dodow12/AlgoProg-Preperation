@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 // read function
-void readArray(int array[], int size)
+void readArray(double array[], int size)
 {
     for (int i = 0; i < size; i++)
     {
         printf("Insert data number %i", i + 1);
-        scanf("%i", &array[i]);
+        scanf("%lf", &array[i]);
     }
-};
+}
 
 // calcsum function
-int calcSum(int array[], int size)
+double calcSum(double array[], int size)
 {
-    int sum = array[0];
+    double sum = array[0];
     // traverse
     for (int i = 1; i < size; i++)
     {
@@ -25,19 +25,18 @@ int calcSum(int array[], int size)
 }
 
 // calculate average
-int calcAverage(int array[], int size)
+double calcAverage(double array[], int size)
 {
-    int sum = calcSum(array, size);
-    float average = sum / size;
+    double sum = calcSum(array, size);
+    double average = (double)sum / size;
 
-    // return
     return average;
 }
 
 // findMax
-int findMax(int array[], int size)
+double findMax(double array[], int size)
 {
-    int Max = array[0];
+    double Max = array[0];
     // traverse
     for (int i = 1; i < size; i++)
     {
@@ -52,9 +51,9 @@ int findMax(int array[], int size)
 }
 
 // findMin
-int findMin(int array[], int size)
+double findMin(double array[], int size)
 {
-    int Min = array[0];
+    double Min = array[0];
 
     // traverse
     for (int i = 1; i < size; i++)
@@ -70,14 +69,14 @@ int findMin(int array[], int size)
 }
 
 // print array
-void printArray(int array[], int size)
+void printArray(double array[], int size)
 {
     printf("Array: ");
     for (int i = 0; i < size - 1; i++)
     {
-        printf("%i, ", array[i]);
+        printf("%.2f, ", array[i]);
     }
-    printf("%i", array[size - 1]);
+    printf("%.2f", array[size - 1]);
 }
 
 int main()
@@ -91,7 +90,7 @@ int main()
     scanf("%i", &size);
 
     // declare array
-    int array[size];
+    double array[size];
 
     // READ array content
     readArray(array, size);
@@ -99,7 +98,7 @@ int main()
     while (running > 0)
     {
         printf("\n\nWelcome to the REUSABLE statistics library.");
-        printf("INSTRUCTIONS:\n1 = View current array\n2 = Calculate sum of array\n3 = Calculate Average of array\n4 = Find Max of array\n5 = Find Min of array\n6 = Switch to a new array");
+        printf("INSTRUCTIONS:\n1 = View current array\n2 = Calculate sum of array\n3 = Calculate Average of array\n4 = Find Max of array\n5 = Find Min of array\n6 = Switch to a new array\n7 = Stop.");
 
         // input choice
         printf("\nInsert your choice: ");
@@ -116,34 +115,40 @@ int main()
         else if (choice == 2)
         {
             printf("\n");
-            printf("Sum is %i", calcSum(array, size));
+            printf("Sum is %.2f", calcSum(array, size));
         }
 
         // case3
         else if (choice == 3)
         {
             printf("\n");
-            printf("Average is %i", calcAverage(array, size));
+            printf("Average is %.2f", calcAverage(array, size));
         }
 
         // case4
         else if (choice == 4)
         {
             printf("\n");
-            printf("Max is %i", findMax(array, size));
+            printf("Max is %.2f", findMax(array, size));
         }
 
         // case5
         else if (choice == 5)
         {
             printf("\n");
-            printf("Min is %i", findMin(array, size));
+            printf("Min is %.2f", findMin(array, size));
         }
 
         // case6
         else if (choice == 6)
         {
             readArray(array, size);
+        }
+
+        // case7
+        else if (choice == 7)
+        {
+            return 0;
         }
 
         // else
